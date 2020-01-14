@@ -138,9 +138,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
             <Card style={{ width: '18rem' }} className="shadow p-3 mb-5 bg-white rounded">
               <Card.Img variant="top" src={require('../../assets/ui.png')} />
               <Card.Body>
-                <Card.Title>Copied Project</Card.Title>
+                <Card.Title>Project</Card.Title>
                 <Card.Text>
-                A project to be copied
+                A project 
     </Card.Text>
                 <Row>
                   <Col>

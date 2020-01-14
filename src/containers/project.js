@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class CopiedProject extends Component {
+class Project extends Component {
     render() {
         return (
             <div>
@@ -10,5 +10,5 @@ class CopiedProject extends Component {
         )
     }
 }
-export default CopiedProject;
+export default Project;
 
