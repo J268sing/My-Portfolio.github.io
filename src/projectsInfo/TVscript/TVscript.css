@@ -1,0 +1,50 @@
+
+
+.jumbotron-tvscript {
+    margin-top: 44px;
+    background-color:#f44336 !important; 
+    color: white;
+}
+
+.col1-tvscript{
+    color: white;
+}
+
+.button-tvscript{
+    height: 50px;
+    width: 100px;
+}
+
+p{
+    font-size: 24px;
+}
+ 
+.check-tvscript{
+    align-items: center;
+  } 
+
+
+ .ne-tvscript{
+    width: auto;
+    height: 60vh;
+    
+ }
+ 
+
+.j-tvscript{
+    padding-left: 50px;
+}
+
+
+.alignment-tvscript{
+    display: flex;
+    justify-content: flex-end;    
+    padding-right: 30px;
+}
+
+.row1-tvscript{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    margin: 70px;
+}

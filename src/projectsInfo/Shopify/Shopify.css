@@ -1,0 +1,48 @@
+ 
+html, body {
+    height: 100;
+}
+ 
+.color-shopify{
+    color: white;
+}
+
+
+.color1-shopify{
+    color: white;
+}
+ 
+.check-shopify{
+    align-items: center;
+  } 
+
+
+ .mainPage-shopify{
+    width: auto;
+    height: 60vh;
+    padding-top: 10%;
+ }
+
+
+.j-shopify{
+    padding-left: 50px;
+}
+
+
+.card-shopify {
+    display: flex;
+  justify-content: center;
+  margin: 78px;
+         
+}
+
+
+.col1-shopify{
+    background-color: rgb(33, 199, 96);
+}
+
+.alignment-shopify{
+    display: flex;
+    justify-content: flex-end;    
+    padding-right: 30px;
+}

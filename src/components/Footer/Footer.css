@@ -1,0 +1,29 @@
+
+.footer{
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    overflow:auto; 
+
+  }
+  
+
+
+  .navlink-footer{
+    color: white;
+    font-size: 24px;
+  }
+
+ 
+  .icon-footer{
+    color: white;
+    font-size: 24px;
+    padding-top: 16px;
+  }
+
+  .icon-size-footer{
+    height: 64px
+  }
+
+ .hello{
+margin-right: 40px; }

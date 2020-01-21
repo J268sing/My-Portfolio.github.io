@@ -4,20 +4,23 @@ html, body {
 }
  
 
-.containe {
+.container-layout {
     height: 100%;
     width: 255px;
     text-align: center;
 }
-
-
-.ne{
+  
+ 
+.ne-layout { 
     width: auto;
     height: 70vh;
     display: flex;
     align-items: center;
 }
-.p{
+.p-layout {
+    font-size:20px;
+}
+.f-layout{
     font-size:18px;
 }
 
@@ -25,38 +28,36 @@ span{
     font-weight: bold ;
 }
 
-
-.block {
+ 
+.block-layout  {
     width: 100%;
    }
    
  
 
 
-.Button {
+.Button-layout  {
     width: 100%;
     background-color: red;
 }
 
-.card-img-top {
+.card-img-top-layout  {
     width: 100%;
     height: 15vw;
     object-fit: cover;
 }
- 
-.card{
+
+.card-layout{
     margin: 78px;
 }
 
-.shadow-box-example {
-    height: 120px;
-    width: 100%;
-    background-color: #64b5f6;
-  }
-
-.CardGroup{
-    height: 16px;
-    background-color: red;
+.center-layout{
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
 }
 
 
+.div-color-layout{
+    background-color: #F5F5F5;
+}

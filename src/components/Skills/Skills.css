@@ -1,0 +1,37 @@
+.align-items-skills{
+    font-size: 20px;
+    padding-left: 16px;
+}
+
+
+
+.align-skills-skills{
+    font-size: 64px;
+    text-align: center;
+}
+
+.color-container-skills{ 
+    color: white;
+    background-color: black;
+}
+
+.align-skills{
+    font-size: 24px;
+}
+
+.full-stack-skills{
+    margin-top: 64px;
+    padding-left: 3px;
+}
+.row-cards-skills{
+    padding-bottom: 16px;
+    color: black;
+    align-content: center;
+}
+.card-title-skills{
+    align-self: center;
+}
+
+.space-skills{
+    height: 150px;
+}
