@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import Scroll from 'react-scroll'
+ import NavDropdown from "react-bootstrap/NavDropdown";
 import  './Navbar.css';
 import {Route,BrowserRouter as Router, Switch, NavLink, Link} from 'react-router-dom';
 import Shopify from '../../projectsInfo/Shopify/Shopify';
@@ -10,7 +11,6 @@ import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
 import { withRouter } from "react-router";
 import Layout from '../../containers/layout/Layout';
 import Home from '../../containers/Home/Home';
-
 
 
  
@@ -26,7 +26,7 @@ class Navba extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className ="justify-content-end-home">
                     <Nav className="ml-auto">
-                        <Nav.Link><Link className="navlink-home" to="/PyTorch"><p className="alignment2-home">About</p></Link></Nav.Link>
+                        <Nav.Link><Link  className="navlink-home" to="/PyTorch"  ><p className="alignment2-home">About</p></Link ></Nav.Link>
                         <Nav.Link><Link className="navlink-home" to="/Shopify"><p className="alignment2-home">Experience</p></Link></Nav.Link>
                         <Nav.Link><Link className="navlink-home" to="/iRead"><p className="alignment2-home">Projects</p></Link></Nav.Link>
                         <Nav.Link><Link className="navlink-home" href="#link4"><p className="alignment2-home">Skills</p></Link></Nav.Link>

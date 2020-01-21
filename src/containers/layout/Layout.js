@@ -13,14 +13,34 @@ import Shopify from '../../projectsInfo/Shopify/Shopify';
 import TVscript from '../../projectsInfo/TVscript/TVscript';
 import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
 import FlowerPrediction from '../../projectsInfo/FlowerPrediction/FlowerPrediction';
-import Project from '../../projectsInfo/Project/Project';
+import Project from '../../projectsInfo/To-Do-App/To-Do-App';
 import Home from '../Home/Home';
 import { useHistory } from "react-router-dom";
 import Footer from '../../components/Footer/Footer';
 import Skills from '../../components/Skills/Skills'
+import { Element } from 'react-scroll'
+//import ToDoApp from '../../projectsInfo/ToDoApp/ToDoApp';
+
+import todo from '../../projectsInfo/todo/todo'
+
 
 const Layout = (props) => {
+
+
+  //this.myDivToFocus = React.createRef()
   const history = useHistory();
+
+ /* function handleOnClick  (event)  {
+    //.current is verification that your element has rendered
+    if(this.myDivToFocus.current){
+        this.myDivToFocus.current.scrollIntoView({ 
+           behavior: "smooth", 
+           block: "nearest"
+        })
+    }
+}
+
+*/
 
   function onNavigateiRead() {
     history.push("/iRead");
@@ -41,8 +61,13 @@ const Layout = (props) => {
 
    }
 
+   function onNavigateToDo(){
+    history.push("/ToDo");
+   }
+
   return (
     <div >
+       
       <Container className="ne-layout">
         <Row>
           <Col xs={6} className="col1" md={6} xg={6} >
@@ -70,7 +95,7 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
           <Card style={{ width: '18rem' }} className=" card-layout shadow p-3 mb-5 bg-white rounded">
             <Card.Img variant="top" src={require('../../assets/ui.png')} />
             <Card.Body>
-              <Card.Title>iRead</Card.Title>
+              <Card.Title><span> iRead</span></Card.Title>
               <Card.Text>
                 An android app for downloading and reading books.
     </Card.Text>
@@ -88,7 +113,7 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
           <Card style={{ width: '18rem' }} className="card-layout shadow p-3 mb-5 bg-white rounded">
             <Card.Img variant="top" src={require('../../assets/ui.png')} />
             <Card.Body>
-              <Card.Title>Shopify Project</Card.Title>
+              <Card.Title><span> Shopify Project</span></Card.Title>
               <Card.Text>
                 An android app that diplay at displays a Custom Collections list page and a Collection Details page of products of a Merchant
     </Card.Text>
@@ -104,9 +129,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="card-layout shadow p-3 mb-5 bg-white rounded">
-            <Card.Img variant="top" src={require('../../assets/ui.png')} />
+            <Card.Img variant="top" src={require('../../assets/Flower-Prediction.png')} />
             <Card.Body>
-              <Card.Title>Flower Prediction</Card.Title>
+              <Card.Title><span>Flower Prediction</span></Card.Title>
               <Card.Text>
                 A CNN model trained using machine learning algorithms to predict the species of flower from input flower image.
     </Card.Text>
@@ -126,9 +151,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
 
         <CardGroup >
           <Card style={{ width: '18rem' }} className=" card-layout shadow p-3 mb-5 bg-white rounded">
-            <Card.Img variant="top" src={require('../../assets/ui.png')} />
+            <Card.Img variant="top" src={require('../../assets/tv-script.png')} />
             <Card.Body>
-              <Card.Title>TV-Script-Generator</Card.Title>
+              <Card.Title><span>TV-Script-Generator</span></Card.Title>
               <Card.Text>
                 A recurrent neural network (RNN) that generates small new dialogues for Simpson's TV script</Card.Text>
               <Row>
@@ -145,9 +170,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="card-layout shadow p-3 mb-5 bg-white rounded">
-            <Card.Img variant="top" src={require('../../assets/ui.png')} />
+            <Card.Img variant="top" src={require('../../assets/pytorch.png')} />
             <Card.Body>
-              <Card.Title>Deep Learning PyTorch</Card.Title>
+              <Card.Title><span>Deep Learning PyTorch</span></Card.Title>
               <Card.Text>
                 Jupyter Notebooks of implementations of various machine learning topics like transfer learning, inference and validation, maxpooling visualization etc.
     </Card.Text>
@@ -167,18 +192,18 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
           <Card style={{ width: '18rem' }} className="shadow p-3 mb-5 bg-white card-layout rounded">
             <Card.Img variant="top" src={require('../../assets/ui.png')} />
             <Card.Body>
-              <Card.Title>Project</Card.Title>
+              <Card.Title><span>To-Do App</span></Card.Title>
               <Card.Text>
-                A project
+                 A Full Stack React Express Application where you can store you daily to-do list by creating new tasks.
     </Card.Text>
               <Row>
                 <Col>
                   
-                    <Button className="block-layout" variant="primary">About</Button>
+                    <Button className="block-layout" onClick={onNavigateToDo}  variant="primary">About</Button>
                   
                 </Col>
                 <Col>
-                  <a href="https://github.com/J268sing/Flower-Prediction">
+                  <a href="https://github.com/J268sing/To-Do-App">
                     <Button className="block-layout" variant="primary">Github</Button>
                   </a>
                 </Col>
@@ -188,7 +213,7 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
         </CardGroup>
         </div> 
 
-        <Skills />
+         <Skills />
 
 
       
@@ -199,9 +224,17 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
       <Route path="/Shopify" exact component={Shopify} />
       <Route path="/FlowerPrediction" exact component={FlowerPrediction} />
       <Route path="/TVscript" exact component={TVscript} />
+      <Route path="/ToDo" exact component={todo} />
+      
+        
     </div>
   );
 }
 
 
 export default Layout;
+
+
+
+
+//A To-Do web app where you can store you daily to-do list by creating new tasks.
