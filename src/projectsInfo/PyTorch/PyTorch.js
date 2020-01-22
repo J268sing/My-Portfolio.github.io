@@ -7,6 +7,7 @@ import './PyTorch.css'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Footer from '../../components/Footer/Footer';
+import Carousel from 'react-bootstrap/Carousel'
 
 
 class PyTorch extends Component {
@@ -33,16 +34,62 @@ class PyTorch extends Component {
                     <Row >
                         <h1>Basics of Neural Networks</h1>
                     </Row>
-                    <Row >
-                        <Col xs={8} md={8} xg={8}>
-                            <Image src={require('../../assets/frontend.png')} />
+                    <Row  >
+                        <Col xs={8} md={8} xg={8} >
+                            <div >
+                                <Carousel className="carousel-height" >
+                                    <Carousel.Item>
+                                        <Container  >
+                                        <img
+                                            className="d-block w-100  image-pytorch"
+                                            src={require('../../assets/ten.png')}
+                                            alt="First slide"
+                                            
+                                        />
+                                        </Container>
+                                        <Carousel.Caption>
+                                         
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                    <Container>
+                                        <img
+                                            className="d-block img-fluid w-100"
+                                            src={require('../../assets/neural-net.jpeg')}
+                                            alt="Third slide"
+                                        /></Container>
+
+                                        <Carousel.Caption>
+                                             
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                    <Container>
+                                        <img
+                                            className="d-block w-100"
+                                            src={require('../../assets/neural-hd.jpg')}
+                                            alt="Third slide"
+                                        />
+</Container>
+                                        <Carousel.Caption>
+                                           
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                </Carousel>
+                            </div>
                         </Col>
                         <Col xs={4} md={4} xg={4}>
                             <h4> For implementation details click on the links below:</h4>
 
-                            <Button className="marg-pytorch" variant="outline-light">Tensors in PyTorch</Button>
+                            <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%201%20-%20Tensors%20in%20PyTorch%20.ipynb">
+                                 <Button className="marg-pytorch" variant="outline-light">Tensors in PyTorch</Button>
+                                 </a>
+                                 <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%202%20-%20Neural%20Networks%20in%20PyTorch%20.ipynb">
                             <Button className="marg-pytorch" variant="outline-light">Basic Neural Networks</Button>
+                            </a>
+                            <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%203%20-%20Training%20Neural%20Networks.ipynb">
                             <Button className="marg-pytorch" variant="outline-light">Training Neural Networks </Button>
+                            </a>
                         </Col>
                     </Row>
                 </div>
@@ -52,7 +99,47 @@ class PyTorch extends Component {
                     </Row>
                     <Row >
                         <Col xs={8} md={8} xg={8}>
-                            <Image src={require('../../assets/frontend.png')} />
+                        <div >
+                                <Carousel className="carousel-height-1" >
+                                    <Carousel.Item>
+                                        <Container  >
+                                        <img
+                                            className="d-block w-100   carousel-center-image-pytorch"
+                                            src={require('../../assets/transfer-learning.png')}
+                                            alt="First slide"
+                                            
+                                        />
+                                        </Container>
+                                        <Carousel.Caption>
+                                         <h3 className="carousel-caption-pytorch">Content Image, Style reference</h3>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                    <Container>
+                                        <img
+                                            className="d-block img-fluid w-100 carousel-center-image-pytorch"
+                                            src={require('../../assets/transfer-learning-training.png')}
+                                            alt="Third slide"
+                                        /></Container>
+
+                                        <Carousel.Caption>
+                                             <h3 className="carousel-caption-pytorch">Training Loss</h3>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                    <Container>
+                                        <img
+                                            className="d-block w-100 carousel-center-image-pytorch"
+                                            src={require('../../assets/final-transfer-learning.png')}
+                                            alt="Third slide"
+                                        />
+</Container>
+                                        <Carousel.Caption>
+                                           <h3 className="carousel-caption-pytorch">Content Image, Final Image</h3>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                </Carousel>
+                            </div>
                         </Col>
                         <Col xs={4} md={4} xg={4}>
                             <p> Neural style transfer is an optimization technique used to take three images, a <span>content</span>  image, a <span>style reference</span> image
@@ -68,8 +155,12 @@ class PyTorch extends Component {
                             Stride(1,1)</Card.Body>
                             </Card>
 
+                            <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%208%20-%20Transfer%20Learning%20.ipynb"> 
                             <Button className="marg-pytorch" variant="outline-dark">Transfer Learning</Button>
+                            </a>
+                            <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Style_Transfer.ipynb">  
                             <Button className="marg-pytorch" variant="outline-dark">Style Transfer</Button>
+                            </a>
                         </Col>
                     </Row>
                 </div>

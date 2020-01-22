@@ -54,3 +54,20 @@
     color: white;
     padding-left: 16px;
 }
+ 
+
+.carousel-height{
+    width: 550px; 
+}
+.carousel-height-1{
+    width: 600px; 
+}
+
+.carousel-caption-pytorch{
+    color: #ec57a9;
+    font-weight: bold;
+}
+
+.carousel-center-image-pytorch{
+    height: 400px;
+}

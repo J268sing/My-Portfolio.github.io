@@ -2,71 +2,111 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 //{require(')
 
-const Crousel = (props) => {
+const Crousel = () => {
 
-   return ( 
-   <div>
-        <Carousel>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={require ('../../assets/ui.png')}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            </Carousel>
-    </div>
-   )
-
-
-   /* var j = props.image1;
-    var k = props.image2;
-    var l = props.image3;
-    var a = props.p;
-    console.log("babe    " + j+k+l + "    babe  " + " jadoo " + a + "    magic");
     return (
+        <div>
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={require('../../assets/pytorch.png')}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={require('../../assets/pytorch.png')}
+                        alt="Third slide"
+                    />
 
-        <Carousel>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={require('../../assets/ui.png')}
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={require('../../assets/ui.png')}
-                    alt="Third slide"
-                />
+                    <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={require('../../assets/pytorch.png')}
+                        alt="Third slide"
+                    />
 
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={require('../../assets/ui.png')}
-                    alt="Third slide"
-                />
+                    <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
 
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>)*/
+        </div>
+    )
+
+
+
+    /*  <Carousel>
+              <Carousel.Item>
+                  <img
+                      className="d-block w-100"
+                      src={require ('../../assets/ui.png')}
+                      alt="First slide"
+                  />
+                  <Carousel.Caption>
+                      <h3>First slide label</h3>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </Carousel.Caption>
+              </Carousel.Item>
+              </Carousel>*/
+
+    /* var j = props.image1;
+     var k = props.image2;
+     var l = props.image3;
+     var a = props.p;
+     console.log("babe    " + j+k+l + "    babe  " + " jadoo " + a + "    magic");
+     return (
+ 
+         <Carousel>
+             <Carousel.Item>
+                 <img
+                     className="d-block w-100"
+                     src={require('../../assets/ui.png')}
+                     alt="First slide"
+                 />
+                 <Carousel.Caption>
+                     <h3>First slide label</h3>
+                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                 </Carousel.Caption>
+             </Carousel.Item>
+             <Carousel.Item>
+                 <img
+                     className="d-block w-100"
+                     src={require('../../assets/ui.png')}
+                     alt="Third slide"
+                 />
+ 
+                 <Carousel.Caption>
+                     <h3>Second slide label</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 </Carousel.Caption>
+             </Carousel.Item>
+             <Carousel.Item>
+                 <img
+                     className="d-block w-100"
+                     src={require('../../assets/ui.png')}
+                     alt="Third slide"
+                 />
+ 
+                 <Carousel.Caption>
+                     <h3>Third slide label</h3>
+                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                 </Carousel.Caption>
+             </Carousel.Item>
+         </Carousel>)*/
 };
 
 export default Crousel;

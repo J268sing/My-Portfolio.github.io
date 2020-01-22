@@ -13,15 +13,12 @@ import Shopify from '../../projectsInfo/Shopify/Shopify';
 import TVscript from '../../projectsInfo/TVscript/TVscript';
 import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
 import FlowerPrediction from '../../projectsInfo/FlowerPrediction/FlowerPrediction';
-import Project from '../../projectsInfo/To-Do-App/To-Do-App';
 import Home from '../Home/Home';
 import { useHistory } from "react-router-dom";
 import Footer from '../../components/Footer/Footer';
 import Skills from '../../components/Skills/Skills'
 import { Element } from 'react-scroll'
-//import ToDoApp from '../../projectsInfo/ToDoApp/ToDoApp';
-
-import todo from '../../projectsInfo/todo/todo'
+import ToDo from '../../projectsInfo/ToDo/ToDo'
 
 
 const Layout = (props) => {
@@ -190,7 +187,7 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }} className="shadow p-3 mb-5 bg-white card-layout rounded">
-            <Card.Img variant="top" src={require('../../assets/ui.png')} />
+            <Card.Img variant="top" src={require('../../assets/ToDo.png')} />
             <Card.Body>
               <Card.Title><span>To-Do App</span></Card.Title>
               <Card.Text>
@@ -224,7 +221,7 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
       <Route path="/Shopify" exact component={Shopify} />
       <Route path="/FlowerPrediction" exact component={FlowerPrediction} />
       <Route path="/TVscript" exact component={TVscript} />
-      <Route path="/ToDo" exact component={todo} />
+      <Route path="/ToDo" exact component={ToDo} />
       
         
     </div>

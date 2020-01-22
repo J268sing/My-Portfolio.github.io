@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
- 
+import Crousel from '../../components/Carousel/Carousel'
 
 class Chalpa extends Component {
     render() {
         return (
-            <h1> Project</h1>
+            <div>
+                <Crousel></Crousel>
+            <h1> chalpa pencho</h1>
+            </div>
         )
     }
 }
 export default Chalpa;
 
+ 

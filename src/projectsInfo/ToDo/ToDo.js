@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 
-class todo extends Component {
+class ToDo extends Component {
     render() {
         return (
             <div>
@@ -11,5 +11,5 @@ class todo extends Component {
         )
     }
 }
-export default todo;
+export default ToDo;
 
