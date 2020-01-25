@@ -11,17 +11,6 @@ import Footer from '../../components/Footer/Footer';
 
 
 class TVscript extends Component {
-
-
-    //ede ch mai koi screenshot ni laon. bs likhna aa te topics covered jumbotron ch likh dene aa
-    // ik link pa dena github nu thats it.
-
-    //floerprediction - ede ch mai likhna v aa te screenshot v paone aa 1 jupyter notebook, 1 web app da te ik odi video.
-
-    // pytorc - ede ch mai likhna aa ke ki ki topic cover kithe in jumbotron, carasouel for images and thats it.
-
-    // copied project - ede bare sochna
-
     render() {
         return (
             <div>
@@ -33,8 +22,7 @@ class TVscript extends Component {
                             <h1>TVscript Generator</h1>
                             <p>
                                 Recurrent Neural Network (RNN) using LSTM cells to generate small dialogue for a
-    Simpson's TV script with a loss of 0.601. ethe loss according to ne .pynb likhna.
-    </p>
+    Simpson's TV script with a loss of 0.601.</p>
                         </Container>
                     </Jumbotron>
                 </Container>
@@ -59,7 +47,11 @@ class TVscript extends Component {
                             </div>
                         </Col>
                         <Col className="k-tvscript" xs={6} md={6} xg={6} >
-                            <Image className="j-tvscript" src={require('../../assets/king.png')} />
+                        <div className="j-tvscript" >
+                        <Card style={{ width: '32rem' }}>
+                            <Card.Img variant="top" src={require('../../assets/TVscript.png')} />
+                            </Card>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

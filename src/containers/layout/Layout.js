@@ -19,25 +19,13 @@ import Footer from '../../components/Footer/Footer';
 import Skills from '../../components/Skills/Skills'
 import { Element } from 'react-scroll'
 import ToDo from '../../projectsInfo/ToDo/ToDo'
-
-
+import Nav from 'react-bootstrap/Nav';
+import Experience from '../../components/Experience/Experience'
 const Layout = (props) => {
 
 
-  //this.myDivToFocus = React.createRef()
-  const history = useHistory();
+   const history = useHistory();
 
- /* function handleOnClick  (event)  {
-    //.current is verification that your element has rendered
-    if(this.myDivToFocus.current){
-        this.myDivToFocus.current.scrollIntoView({ 
-           behavior: "smooth", 
-           block: "nearest"
-        })
-    }
-}
-
-*/
 
   function onNavigateiRead() {
     history.push("/iRead");
@@ -61,7 +49,6 @@ const Layout = (props) => {
    function onNavigateToDo(){
     history.push("/ToDo");
    }
-
   return (
     <div >
        
@@ -69,7 +56,7 @@ const Layout = (props) => {
         <Row>
           <Col xs={6} className="col1" md={6} xg={6} >
             <Container className="container-layout">
-              <Image src={require('../../assets/king.png')} roundedCircle />
+              <Image src={require('../../assets/me1.png')}  />
               <h4 style={{ margin: 0 }}>Web/Mobile Developer</h4>
               <h4 >Software Engineer</h4>
             </Container>
@@ -84,8 +71,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
         </Row>
       </Container>
 
+      <Experience></Experience>
 
-
+      <a name="projects">
       <div className="div-color-layout">
         <h1 className="center-layout">Projects</h1>
         <CardGroup >
@@ -115,9 +103,10 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
                 An android app that diplay at displays a Custom Collections list page and a Collection Details page of products of a Merchant
     </Card.Text>
               <Row>
-                <Col>
+                <Col>  
                   <Button onClick={onNavigateShopify} className="block-layout" variant="primary">About</Button>
-                </Col>
+                
+                  </Col>
                 <Col>
                   <a href="https://github.com/J268sing/shopify-project">
                     <Button className ="block-layout" variant="primary">Github</Button>
@@ -135,30 +124,32 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
               <Row>
                 <Col>
                     <Button onClick={onNavigateFlowerPrediction} className="block-layout" variant="primary">About</Button>
+                    
                 </Col>
                 <Col>
+
                   <a href="https://github.com/J268sing/Flower-Prediction">
                     <Button className="block-layout" variant="primary">Github</Button>
                   </a>                  </Col>
               </Row>
             </Card.Body>
-          </Card>
+          </Card> 
         </CardGroup>
-
-
         <CardGroup >
           <Card style={{ width: '18rem' }} className=" card-layout shadow p-3 mb-5 bg-white rounded">
-            <Card.Img variant="top" src={require('../../assets/tv-script.png')} />
+            <Card.Img variant="top" src={require('../../assets/TVscript.png')} />
             <Card.Body>
               <Card.Title><span>TV-Script-Generator</span></Card.Title>
               <Card.Text>
                 A recurrent neural network (RNN) that generates small new dialogues for Simpson's TV script</Card.Text>
               <Row>
                 <Col>
-                   
+              
                     <Button onClick={onNavigateTVscript} className="block-layout" variant="primary">About</Button>
+                   
                 </Col>
                 <Col>
+
                   <a href="https://github.com/J268sing/TV-Script-Generator">
                     <Button className="block-layout" variant="primary">Github</Button>
                   </a>
@@ -175,8 +166,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
     </Card.Text>
               <Row>
                 <Col>
-                   
+             
                     <Button onClick={onNavigatePyTorch} className="block-layout" variant="primary">About</Button>
+                    
                 </Col>
                 <Col>
                   <a href="https://github.com/J268sing/deep-learning-PyTorch">
@@ -195,9 +187,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
     </Card.Text>
               <Row>
                 <Col>
-                  
-                    <Button className="block-layout" onClick={onNavigateToDo}  variant="primary">About</Button>
-                  
+        
+                   <Button className="block-layout" onClick={onNavigateToDo}  variant="primary">About</Button>
+                   
                 </Col>
                 <Col>
                   <a href="https://github.com/J268sing/To-Do-App">
@@ -209,17 +201,15 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
           </Card>
         </CardGroup>
         </div> 
+        </a>
 
-         <Skills />
-
-
-      
+       <div id="sick"> <Skills /></div> 
       
       <Footer ></Footer>
       <Route path="/iRead" exact component={iRead} />
       <Route path="/PyTorch" exact component={PyTorch} />
       <Route path="/Shopify" exact component={Shopify} />
-      <Route path="/FlowerPrediction" exact component={FlowerPrediction} />
+      <Route path="/FlowerPrediction" component={FlowerPrediction} />
       <Route path="/TVscript" exact component={TVscript} />
       <Route path="/ToDo" exact component={ToDo} />
       
@@ -228,10 +218,4 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
   );
 }
 
-
 export default Layout;
-
-
-
-
-//A To-Do web app where you can store you daily to-do list by creating new tasks.

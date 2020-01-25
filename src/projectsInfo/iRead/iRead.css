@@ -1,7 +1,28 @@
 
 
 .check-iread{
-    background-color:rgb(0, 162, 255);
-    margin-top: 100px;
+    text-align: left;
+}
+
+.h1-iread{
+    color: #00b0ff
+
+}
+
+.p-iread{
+    font-size: 16px;
+}
+.container-iread {
+    height: 100%;
+    width: 255px;
+ }
+
+
+ .container-iread1{
+    color: white;
+    background-color: #00b0ff;
     text-align: center
 }
+
+
+ 

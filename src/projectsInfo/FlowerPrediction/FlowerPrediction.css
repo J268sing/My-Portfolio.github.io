@@ -7,3 +7,18 @@ color: rgb(245, 129, 148);
     margin: 24px;
     text-align: center;
 }
+
+.container-flower-prediction{
+    background-color: rgb(245, 129, 148);
+    color: white;
+    text-align: center
+}
+
+.card-flower-prediction {
+    color: rgb(245, 129, 148);
+    background-color: rgb(245, 129, 148);
+}
+
+.card-flower-prediction{
+    color: white
+}

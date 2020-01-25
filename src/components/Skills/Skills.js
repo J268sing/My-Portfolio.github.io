@@ -8,9 +8,10 @@ import Card from 'react-bootstrap/Card';
 class Skills extends Component {
     render() {
         return (
-            <div>
+            <div> 
                 <p className="space-skills"></p>
                 <Container className="color-container-skills">
+                
                     <p className="align-skills-skills">Skills</p>
                     <p style={{ margin: 0 }} className="align-skills">Languages</p>
                     <Row className="align-items-skills"> JavaScript • Python • C++/C • SQL • Java • HTML/CSS • R</Row>

@@ -56,9 +56,13 @@ The collection title
 The collection image</Card.Body>
 </Card>
         </Container>
-
-
-<p>Video laoni aa ethe</p>
+<Container >
+                <Row className="video-todo"> 
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                 </Row>
+                </Container>
 <p className="space-skills"></p>
 <Footer></Footer>
 

@@ -7,6 +7,7 @@ import  './Navbar.css';
 import {Route,BrowserRouter as Router, Switch, NavLink, Link} from 'react-router-dom';
 import Shopify from '../../projectsInfo/Shopify/Shopify';
 import iRead from '../../projectsInfo/iRead/iRead';
+import TVscript from '../../projectsInfo/TVscript/TVscript';
 import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
 import { withRouter } from "react-router";
 import Layout from '../../containers/layout/Layout';
@@ -18,7 +19,9 @@ import Chalpa from '../../projectsInfo/Chalpa/chalpa'
 
  
 class Navba extends Component {
+    
     render() {
+       
         return (
             <div>
             <Navbar bg="light"  expand="lg" >
@@ -26,26 +29,44 @@ class Navba extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className ="justify-content-end-home">
                     <Nav className="ml-auto">
-                        <Nav.Link><Link  className="navlink-home" to="/FlowerPrediction"><p className="alignment2-home">About</p></Link ></Nav.Link>
-                        <Nav.Link><Link className="navlink-home" to="/Chalpa"><p className="alignment2-home">Experience</p></Link></Nav.Link>
-                        <Nav.Link><Link className="navlink-home" to="/todo"><p className="alignment2-home">Projects</p></Link></Nav.Link>
-                        <Nav.Link><Link className="navlink-home" href="#link4"><p className="alignment2-home">Skills</p></Link></Nav.Link>
-                        <NavDropdown className="alignment2-home" title="Contact" alignRight  id="dropdown-button-drop-left">
+
+                    {/*Projects Routing*/}
+                    <Nav.Link><Link className="navlink-home" to="/FlowerPrediction"><p className="alignment2-home"></p></Link></Nav.Link>
+                    <Nav.Link><Link className="navlink-home" to="/TVscript"><p className="alignment2-home"></p></Link></Nav.Link>
+                    <Nav.Link><Link className="navlink-home" to="/iRead"><p className="alignment2-home"></p></Link></Nav.Link>
+                    <Nav.Link><Link className="navlink-home" to="/ToDo"><p className="alignment2-home"></p></Link></Nav.Link>
+                    <Nav.Link><Link className="navlink-home" to="/PyTorch"><p className="alignment2-home"></p></Link></Nav.Link>
+                    <Nav.Link><Link className="navlink-home" to="/Shopify"><p className="alignment2-home"></p></Link></Nav.Link>
+
+ 
+                    {/* Navbar Items*/}
+                        <Nav.Link className="navlink-home" href="mailto:j268sing@edu.uwaterloo.ca"><p className="alignment2-home">Email</p></Nav.Link>
+                        <Nav.Link className="navlink-home" target="_blank" href="https://github.com/j268sing"><p className="alignment2-home">Github</p></Nav.Link>
+                        <Nav.Link className="navlink-home" href="#sick"><p className="alignment2-home">Facebook</p></Nav.Link>
+                        <Nav.Link className="navlink-home" to="/"><p className="alignment2-home">Linkedin</p></Nav.Link>
+                        {/*<NavDropdown className="alignment2-home" title="Contact" alignRight  id="dropdown-button-drop-left">
                             <NavDropdown.Item href="#action/3.1"><p className="alignment2-home">Email</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2"><p className="alignment2-home">Linkedin</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3"><p className="alignment2-home">Github</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.4"><p className="alignment2-home">Facebook</p></NavDropdown.Item>
-                        </NavDropdown>
+        </NavDropdown>*/}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+
+
+            
+            
             <Route path="/" exact component={Layout} />
-            <Route path="/FlowerPrediction" component={FlowerPrediction} />
+            <Route path="/iRead" component={iRead} />
+            <Route path="/Shopify"  component={Shopify}/>
+            <Route path="/TVscript"  component={TVscript}/>
+            <Route path="/ToDo"  component={ToDo}/>
+            <Route path="/FlowerPrediction"  component={FlowerPrediction}/>
             <Route path="/PyTorch"  component={PyTorch}/>
-            <Route path="/todo"  component={ToDo}/>
-            <Route path="/Chalpa"  component={Chalpa}/>
- 
-            </div>
+            
+            
+             </div>
         )
     }
 }
