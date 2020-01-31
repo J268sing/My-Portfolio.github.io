@@ -9,6 +9,8 @@ class Experience extends Component {
     render() {
         return (
             <div>
+                                <p className="space-skills"></p>
+
                 <div className="div-color-experience">
                     <h1 className="center-experience">Experience</h1>
                     <Container className="color-container-experience">

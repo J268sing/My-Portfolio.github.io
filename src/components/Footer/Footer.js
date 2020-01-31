@@ -49,10 +49,7 @@ const Footer = () => (
       
       <Row className="icon-footer"><a className="p-color" target="_blank" href="mailto:j268sing@edu.uwaterloo.ca"><p className="hello ml-auto">j268sing@edu.uwaterloo.ca  </p></a></Row>
     </Col>
-
     </Row>
-
-    
   </footer>
 );
 
