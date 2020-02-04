@@ -18,21 +18,20 @@ class Shopify extends Component {
         <Container className="mainPage-shopify">
         <h1 className="color-shopify">Shopify Project</h1>
           <Row className="check-shopify" >
-            <Col xs={6} md={6} xg={6}>
+            <Col xs={12} md={6} xg={6}>
               <Container >
-                <p className="color-shopify p-size-shopify" style={{ textAlign: "start" }}> <span><h3>About:</h3></span> This project was made as a part of shopify Mobile Dev Challenge</p>
-
-
-
-                <p className="color-shopify p-size-shopify" style={{ textAlign: "start" }}>This app uses shopify's api to show the items and was built in android studio. Main feature of this app was to view the list items as cards</p>
+                <p className="color-shopify p-size-shopify" style={{ textAlign: "start" }}> <span><h3>About:</h3></span> This project was made as a part of shopify Mobile Dev Challenge.This app uses shopify's api to show the items and was built in android studio. Main feature of this app was to view the list items as cards</p>
               </Container>
-              <div className="alignment-shopify">
+              <div className="alignment-shopify space-mobile">
         <a href="https://github.com/J268sing/shopify-project">
                       <Button  variant="dark">Github</Button>
                     </a> 
                     </div>
+
+                
+
             </Col>
-            <Col  xs={6} md={6} xg={6} >
+            <Col  xs={12} md={6} xg={6} >
             <Carousel  >
                                             <Carousel.Item>
                                                 <Container  >
@@ -80,7 +79,7 @@ The collection image</Card.Body>
 <p className="space-skills"></p>
 <Footer></Footer>
 
-         
+          
       </div>
     )
   }

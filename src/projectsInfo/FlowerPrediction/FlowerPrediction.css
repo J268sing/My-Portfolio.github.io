@@ -8,10 +8,19 @@ color: rgb(245, 129, 148);
     text-align: center;
 }
 
+.check-flower-prediction{
+    text-align:left;
+}
+
 .container-flower-prediction{
     background-color: rgb(245, 129, 148);
     color: white;
     text-align: center
+}
+
+
+.space-mobile-flower-prediction{
+    margin-bottom: 64px;
 }
 
 .card-flower-prediction {

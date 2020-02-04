@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
- 
+  
 class iRead extends Component {
     render() {
         return (
@@ -16,7 +16,7 @@ class iRead extends Component {
                     <div className="div-space-iread">
                     <Container className="ne-layout-others">
                         <Row>
-                            <Col xs={6} className="col1" md={6} xg={6} >
+                            <Col xs={12} className="col1  space-mobile" md={6} xg={6} >
                                 <Container className="container-iread">
                                      <div >
                                         <Carousel  >
@@ -49,7 +49,7 @@ class iRead extends Component {
                                     <h4 style={{ margin: 0 }} className="h1-iread">Made in Android Studio</h4>
                                 </Container>
                             </Col>
-                            <Col className="check-iread" xs={6} md={6} xg={6}>
+                            <Col className="check-iread" xs={12} md={6} xg={6}>
                                 <div>
                                     <p className="p-iread">  
                     iRead is an all-in-one book reading app for android devices. The robust and well-designed app allows you to read books offline any time, anywhere.

@@ -47,7 +47,7 @@ class TVscript extends Component {
                         <div>
 
                         <Carousel  >
-                                            <Carousel.Item>
+                                         <Carousel.Item>
                                                 <Container  >
                                                     <img
                                                         className="d-block w-100 "

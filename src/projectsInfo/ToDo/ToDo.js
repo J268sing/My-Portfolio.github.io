@@ -10,14 +10,14 @@ import Carousel from 'react-bootstrap/Carousel';
 
 class ToDo extends Component {
     render() {
-        return (
+        return ( 
             <div>
  <Container className="container-flowerprediction ">
                     <h1 className="h1-todo">To-Do</h1>
 
                     <Container className="ne-layout-others">
                         <Row>
-                            <Col xs={6} className="col1" md={6} xg={6} >
+                            <Col xs={12} className="col1 space-mobile-flower-prediction" md={6} xg={6} >
                                 <Container className="container-iread">
                                      <div >
                                         <Carousel  >
@@ -50,7 +50,7 @@ class ToDo extends Component {
                                     <h4 style={{ margin: 0 }} className="h1-todo">Built using React, Express, Node.js</h4>
                                 </Container>
                             </Col>
-                            <Col className="check-iread" xs={6} md={6} xg={6}>
+                            <Col className="check-iread" xs={12} md={6} xg={6}>
                                 <div>
                                     <p className="p-iread">  
                                     A full stack web app made with react and express where you can store your daily to-do list by creating

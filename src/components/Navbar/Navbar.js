@@ -32,13 +32,11 @@ class Navba extends Component {
                     <Nav.Link><Link className="navlink-home" to="/ToDo"><p className="alignment2-home"></p></Link></Nav.Link>
                     <Nav.Link><Link className="navlink-home" to="/PyTorch"><p className="alignment2-home"></p></Link></Nav.Link>
                     <Nav.Link><Link className="navlink-home" to="/Shopify"><p className="alignment2-home"></p></Link></Nav.Link>
-
- 
                     {/* Navbar Items*/}
-                        <Nav.Link className="navlink-home" href="mailto:j268sing@edu.uwaterloo.ca"><p className="alignment2-home">Email</p></Nav.Link>
+                        <Nav.Link className="navlink-home" target="_blank" href="mailto:j268sing@edu.uwaterloo.ca"><p className="alignment2-home">Email</p></Nav.Link>
                         <Nav.Link className="navlink-home" target="_blank" href="https://github.com/j268sing"><p className="alignment2-home">Github</p></Nav.Link>
-                        <Nav.Link className="navlink-home" href="#sick"><p className="alignment2-home">Facebook</p></Nav.Link>
-                        <Nav.Link className="navlink-home" to="/"><p className="alignment2-home">Linkedin</p></Nav.Link>
+                        <Nav.Link className="navlink-home" target="_blank" href="https://www.facebook.com/jashan.batth.902"><p className="alignment2-home">Facebook</p></Nav.Link>
+                        <Nav.Link className="navlink-home" target="_blank" href="https://ca.linkedin.com/in/jashandeepsingh62"><p className="alignment2-home">Linkedin</p></Nav.Link>
                         {/*<NavDropdown className="alignment2-home" title="Contact" alignRight  id="dropdown-button-drop-left">
                             <NavDropdown.Item href="#action/3.1"><p className="alignment2-home">Email</p></NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2"><p className="alignment2-home">Linkedin</p></NavDropdown.Item>

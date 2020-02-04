@@ -34,8 +34,8 @@ class PyTorch extends Component {
                     <Row >
                         <h1>Basics of Neural Networks</h1>
                     </Row>
-                    <Row  >
-                        <Col xs={8} sm={8} md={8} lg={8} xg={8} >
+                    <Row>
+                        <Col className="space-mobile-flower-prediction" xs={12} sm={8} md={8} lg={8} xg={8} >
                             <div >
                             <Carousel >
                             <Carousel.Item>
@@ -79,7 +79,7 @@ class PyTorch extends Component {
                                         </Carousel>
                             </div>
                         </Col>
-                        <Col xs={4} sm={4} md={4} lg={4} xg={4}>
+                        <Col xs={12} sm={4} md={4} lg={4} xg={4}>
                             <h4> For implementation details click on the links below:</h4>
 
                             <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%201%20-%20Tensors%20in%20PyTorch%20.ipynb">
@@ -102,9 +102,9 @@ class PyTorch extends Component {
                         <h1>Transfer Learning</h1>
                     </Row>
                     <Row >
-                        <Col xs={8} md={8} xg={8}>
+                        <Col xs={12} md={8} xg={8}>
                         <div >
-                                <Carousel className="carousel-height-1" >
+                                <Carousel className="carousel-height-1 space-mobile" >
                                     <Carousel.Item>
                                         <Container  >
                                         <img
@@ -145,9 +145,9 @@ class PyTorch extends Component {
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                 </Carousel>
-                            </div>
+                            </div> 
                         </Col>
-                        <Col xs={4} md={4} xg={4}>
+                        <Col xs={12} md={4} xg={4}>
                             <p> Neural style transfer is an optimization technique used to take three images, a <span>content</span>  image, a <span>style reference</span> image
                              and the <span>input</span> image you want to style — and blend them together such that the input image is transformed to look like the
                              content image, but “painted” in the style of the style image.</p>

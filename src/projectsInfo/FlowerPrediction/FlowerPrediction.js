@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
- 
+  
 class FlowerPrediction extends Component {
     render() {
         return ( 
@@ -21,7 +21,7 @@ class FlowerPrediction extends Component {
 
                     <Container className="ne-layout-others">
                         <Row>
-                            <Col xs={6} className="col1" md={6} xg={6} >
+                            <Col xs={12} className="col1 space-mobile" md={6} xg={6} >
                                 <Container className="container-layout">
                                      <div >
                                         <Carousel  >
@@ -54,8 +54,9 @@ class FlowerPrediction extends Component {
                                     <h4 style={{ margin: 0 }} className="h1-flowerprediction">Made using PyTorch</h4>
                                 </Container>
                             </Col>
-                            <Col xs={6} md={6} xg={6}>
-                                <div className="">
+                            <Col xs={12} md={6} xg={6}>
+
+                                <div className="check-flower-prediction">
                                     <p className="p-layout">This is a CNN model bulit by fine-tuning the pre-trained VGG19 model by modifiying the classifying layer with custom feed forward network that has 2 hidden layers and ReLU activation functions.
                                     The model has an accuracy of the 85% and is trained on CUDA's GPU. 
                                     </p>
@@ -69,17 +70,17 @@ class FlowerPrediction extends Component {
                     </div>
                 </Container>
 
-                <Container fluid className="container-flower-prediction ">Link to the trained dataset: <a target="_blank" href ="https://drive.google.com/file/d/1-Dx1OXsg2yuTDfyELJA2LOCaQAvIrVK2/view?usp=sharing"  className="card-flower-prediction">Checkpoint</a></Container>
+                <Container fluid className="container-flower-prediction space-mobile-flower-prediction">Link to the trained dataset: <a target="_blank" href ="https://drive.google.com/file/d/1-Dx1OXsg2yuTDfyELJA2LOCaQAvIrVK2/view?usp=sharing"  className="card-flower-prediction">Checkpoint</a></Container>
 
                 <Container className="ne-layout-others">
         <Row>
-          <Col xs={6} md={6} xg={6}>
+          <Col xs={12} md={6} xg={6}>
             <div>
               <p className="p-layout">Deployed the CNN model into a web app using 
               flask that takes in a flower image and uses the trained network to predict name of the flower that is the nearest look-alike (neighbour) of flower present in the image.</p>
                     </div>
           </Col>
-          <Col xs={6} className="col1" md={6} xg={6} >
+          <Col xs={12} className="col1" md={6} xg={6} >
             <Container className="container-layout">
             <Container >
                 <Row className="video-todo"> 
@@ -87,8 +88,6 @@ class FlowerPrediction extends Component {
 
                  </Row>
                 </Container>
-                               <h4 style={{ margin: 0 }}>Web/Mobile Developer</h4>
-              <h4 >Software Engineer</h4>
             </Container>
           </Col>
         </Row>

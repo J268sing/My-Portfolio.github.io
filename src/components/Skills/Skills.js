@@ -43,7 +43,7 @@ class Skills extends Component {
                             </Col>
                             <Col xs={6} sm={6} md={6} lg={6} xg={6}>
                                 <Card>
-                                    <Card.Title className="card-title-skills">Backend Development</Card.Title>
+                                    <Card.Title className="card-title-skills">Back-End Development</Card.Title>
                                     <Card.Body>• Creating your server-side programs that connect to databases.</Card.Body>
                                 </Card>
                             </Col>
