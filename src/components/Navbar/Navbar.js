@@ -42,6 +42,7 @@ class Navba extends Component {
                                 <NavDropdown.Item className="navlink-home" target="_blank" href="https://github.com/j268sing"><p className="alignment2-home">Github</p></NavDropdown.Item>
                                 <NavDropdown.Item className="navlink-home" target="_blank" href="https://www.facebook.com/jashan.batth.902"><p className="alignment2-home">Facebook</p></NavDropdown.Item>
                                 <NavDropdown.Item className="navlink-home" target="_blank" href="https://ca.linkedin.com/in/jashandeepsingh62"><p className="alignment2-home">Linkedin</p></NavDropdown.Item>
+                                <NavDropdown.Item className="navlink-home" target="_blank" href="tel:+12265076262"><p className="alignment2-home">Mobile: 2265076262</p></NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
