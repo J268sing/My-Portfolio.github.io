@@ -26,12 +26,9 @@ class TVscript extends Component {
                     </Jumbotron>
                 </Container>
 
-
-
-
                 <Container className="ne-tvscript">
                     <Row className="check-tvscript" >
-                        <Col xs={6} md={6} xg={6} className="marg-tvscript" >
+                        <Col xs={12} md={6} xg={6} className="marg-tvscript" >
                             <Container >
 
 
@@ -46,7 +43,7 @@ class TVscript extends Component {
                                 </a>
                             </div>
                         </Col>
-                        <Col className="k-tvscript" xs={6} md={6} xg={6} >
+                        <Col className="k-tvscript" xs={12} md={6} xg={6} >
                         <div>
 
                         <Carousel  >
