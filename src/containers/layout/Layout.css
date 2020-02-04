@@ -2,15 +2,13 @@
 html, body {
     height: 100;
 }
- 
 
 .container-layout {
     height: 100%;
     width: 255px;
     text-align: center;
  }
-  
- 
+
 .ne-layout-layout { 
     width: auto;
     height: 70vh;
@@ -28,6 +26,7 @@ html, body {
 .p-layout {
     font-size:20px;
 }
+
 .f-layout{
     font-size:18px;
 }
@@ -35,14 +34,10 @@ html, body {
 span{
     font-weight: bold ;
 }
-
  
 .block-layout  {
     width: 100%;
    }
-   
-  
-
 
 .Button-layout  {
     width: 100%;
@@ -64,7 +59,6 @@ span{
     font-size: 64px;
     text-align: center;
 }
-
 
 .div-color-layout{
     background-color: #F5F5F5;

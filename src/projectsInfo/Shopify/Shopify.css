@@ -2,9 +2,11 @@
 html, body {
     height: 100;
 }
+
 .color-shopify{
     color: white;
 }
+
 .p-size-shopify{
     font-size: 16px;
 }
@@ -18,14 +20,12 @@ html, body {
     margin-bottom: 78px;
 } 
 
-
  .mainPage-shopify{
     width: auto;
     height: auto;
     padding-top: 78px;
     text-align: center;
  }
-
 
 .j-shopify{
     margin-left: 50px;
@@ -41,7 +41,6 @@ html, body {
   margin: 78px;
          
 }
-
 
 .col1-shopify{
     background-color: rgb(33, 199, 96);

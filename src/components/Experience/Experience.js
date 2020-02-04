@@ -8,8 +8,7 @@ class Experience extends Component {
     render() {
         return (
             <div>
-                                <p className="space-skills"></p>
-
+                <p className="space-skills"></p>
                 <div className="div-color-experience">
                     <h1 className="center-experience">Experience</h1>
                     <Container className="color-container-experience">
@@ -24,7 +23,6 @@ class Experience extends Component {
                                             <li><p style={{ margin: 0 }}>Performed troubleshoot to identify software performance issues</p></li>
                                             <li><p style={{ margin: 0 }}>Provided relevant course material and helped improve their average by more than 15%</p></li>
                                             <li><p>Effectively wrote clean and reusable code for designing templates for their clients.</p></li></ul>
-
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -38,8 +36,6 @@ class Experience extends Component {
                                         <ul>
                                             <li><p style={{ margin: 0 }}>Lectured 20 students from grade 8-12 aimed to build intuition about complex mathematical ideas</p></li>
                                             <li><p>Maintained existing and functionality during assimilation into ongoing operations of web business.</p></li></ul>
-
-
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -47,10 +43,9 @@ class Experience extends Component {
                     </Container>
                 </div>
                 <p className="space-skills"></p>
-
             </div>
         )
     }
 }
-export default Experience;
 
+export default Experience;

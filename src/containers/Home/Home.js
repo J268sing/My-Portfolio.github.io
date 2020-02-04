@@ -4,8 +4,8 @@ class Home extends Component {
     render() {
         return (
             <div>
-            <Navba></Navba>
-            <foo></foo>
+                <Navba></Navba>
+                <foo></foo>
             </div>
         )
     }
