@@ -7,24 +7,24 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Footer from '../../components/Footer/Footer';
-
+import Carousel from "react-bootstrap/Carousel";
  
 class Shopify extends Component {
   render() {
     return (
       <div className="col1-shopify">
 
- 
+  
         <Container className="mainPage-shopify">
+        <h1 className="color-shopify">Shopify Project</h1>
           <Row className="check-shopify" >
             <Col xs={6} md={6} xg={6}>
               <Container >
-                <h1 className="color-shopify">Shopify Project</h1>
-                <h3 className="color-shopify" style={{ textAlign: "start" }}> About: This project was made as a part of shopify Mobile Dev Challenge</h3>
+                <p className="color-shopify p-size-shopify" style={{ textAlign: "start" }}> <span><h3>About:</h3></span> This project was made as a part of shopify Mobile Dev Challenge</p>
 
 
 
-                <p className="color-shopify">This app uses shopify's api to show the items and was built in android studio. Main feature of this app was to view the list items as cards</p>
+                <p className="color-shopify p-size-shopify" style={{ textAlign: "start" }}>This app uses shopify's api to show the items and was built in android studio. Main feature of this app was to view the list items as cards</p>
               </Container>
               <div className="alignment-shopify">
         <a href="https://github.com/J268sing/shopify-project">
@@ -32,9 +32,23 @@ class Shopify extends Component {
                     </a> 
                     </div>
             </Col>
-            <Col className="k-shopify" xs={6} md={6} xg={6} >
-              <Image className="j-shopify" src={require('../../assets/king.png')} />
-            </Col>
+            <Col  xs={6} md={6} xg={6} >
+            <Carousel  >
+                                            <Carousel.Item>
+                                                <Container  >
+                                                    <img
+                                                        className="d-block w-100 "
+                                                        src={require('../../assets/king.png')}
+                                                        alt="First slide"
+
+                                                    />
+                                                </Container>
+                                                <Carousel.Caption>
+                                                 </Carousel.Caption>
+                                            </Carousel.Item>
+                                          
+                                        </Carousel>
+             </Col>
           </Row>
         </Container>
 

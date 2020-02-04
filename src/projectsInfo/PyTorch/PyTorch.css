@@ -54,13 +54,10 @@
     color: white;
     padding-left: 16px;
 }
- 
 
-.carousel-height{
-    width: 550px; 
-}
 .carousel-height-1{
-    width: 600px; 
+    overflow: scroll;
+
 }
 
 .carousel-caption-pytorch{
@@ -70,4 +67,11 @@
 
 .carousel-center-image-pytorch{
     height: 400px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .div-general-white-pytorch{
+        height: 1110px;
+    }
 }

@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import './TVscript.css'
 import Footer from '../../components/Footer/Footer';
-
+import Carousel from 'react-bootstrap/Carousel';
 
 class TVscript extends Component {
     render() {
@@ -25,6 +25,7 @@ class TVscript extends Component {
                         </Container>
                     </Jumbotron>
                 </Container>
+
 
 
 
@@ -46,10 +47,24 @@ class TVscript extends Component {
                             </div>
                         </Col>
                         <Col className="k-tvscript" xs={6} md={6} xg={6} >
-                        <div className="j-tvscript" >
-                        <Card style={{ width: '32rem' }}>
-                            <Card.Img variant="top" src={require('../../assets/TVscript.png')} />
-                            </Card>
+                        <div>
+
+                        <Carousel  >
+                                            <Carousel.Item>
+                                                <Container  >
+                                                    <img
+                                                        className="d-block w-100 "
+                                                        src={require('../../assets/TVscript.png')}
+                                                        alt="First slide"
+
+                                                    />
+                                                </Container>
+                                                <Carousel.Caption>
+                                                 </Carousel.Caption>
+                                            </Carousel.Item>
+                                          
+                                        </Carousel>
+                      
                             </div>
                         </Col>
                     </Row>

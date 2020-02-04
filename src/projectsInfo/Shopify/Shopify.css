@@ -2,11 +2,12 @@
 html, body {
     height: 100;
 }
- 
 .color-shopify{
     color: white;
 }
-
+.p-size-shopify{
+    font-size: 16px;
+}
 
 .color1-shopify{
     color: white;
@@ -14,18 +15,20 @@ html, body {
  
 .check-shopify{
     align-items: center;
-  } 
+    margin-bottom: 78px;
+} 
 
 
  .mainPage-shopify{
     width: auto;
-    height: 60vh;
-    padding-top: 10%;
+    height: auto;
+    padding-top: 78px;
+    text-align: center;
  }
 
 
 .j-shopify{
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 

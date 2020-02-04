@@ -35,50 +35,51 @@ class PyTorch extends Component {
                         <h1>Basics of Neural Networks</h1>
                     </Row>
                     <Row  >
-                        <Col xs={8} md={8} xg={8} >
+                        <Col xs={8} sm={8} md={8} lg={8} xg={8} >
                             <div >
-                                <Carousel className="carousel-height" >
-                                    <Carousel.Item>
-                                        <Container  >
-                                        <img
-                                            className="d-block w-100  image-pytorch"
-                                            src={require('../../assets/ten.png')}
-                                            alt="First slide"
-                                            
-                                        />
-                                        </Container>
-                                        <Carousel.Caption>
-                                         
-                                        </Carousel.Caption>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                    <Container>
-                                        <img
-                                            className="d-block img-fluid w-100"
-                                            src={require('../../assets/neural-net.jpeg')}
-                                            alt="Third slide"
-                                        /></Container>
+                            <Carousel >
+                            <Carousel.Item>
+                                                <Container  >
+                                                    <img
+                                                        className="d-block w-100 "
+                                                        src={require('../../assets/ten.png')}
+                                                        alt="First slide"
 
-                                        <Carousel.Caption>
-                                             
-                                        </Carousel.Caption>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                    <Container>
-                                        <img
-                                            className="d-block w-100"
-                                            src={require('../../assets/neural-hd.jpg')}
-                                            alt="Third slide"
-                                        />
-</Container>
-                                        <Carousel.Caption>
-                                           
-                                        </Carousel.Caption>
-                                    </Carousel.Item>
-                                </Carousel>
+                                                    />
+                                                </Container>
+                                                <Carousel.Caption>
+                                                 </Carousel.Caption>
+                                            </Carousel.Item>
+                                            
+                                             <Carousel.Item>
+                                                <Container  >
+                                                    <img
+                                                        className="d-block w-100 "
+                                                        src={require('../../assets/neural-net.jpeg')}
+                                                        alt="First slide"
+
+                                                    />
+                                                </Container>
+                                                <Carousel.Caption>
+                                                 </Carousel.Caption>
+                                            </Carousel.Item>
+                                            
+                                             <Carousel.Item>
+                                                <Container  >
+                                                    <img
+                                                        className="d-block w-100 "
+                                                        src={require('../../assets/neural-hd.jpg')}
+                                                        alt="First slide"
+                                                    />
+                                                </Container>
+                                                <Carousel.Caption>
+                                                 </Carousel.Caption>
+                                            </Carousel.Item>
+                                          
+                                        </Carousel>
                             </div>
                         </Col>
-                        <Col xs={4} md={4} xg={4}>
+                        <Col xs={4} sm={4} md={4} lg={4} xg={4}>
                             <h4> For implementation details click on the links below:</h4>
 
                             <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%201%20-%20Tensors%20in%20PyTorch%20.ipynb">
@@ -93,6 +94,9 @@ class PyTorch extends Component {
                         </Col>
                     </Row>
                 </div>
+
+
+                
                 <div className="div-general-white-pytorch">
                     <Row >
                         <h1>Transfer Learning</h1>
@@ -114,7 +118,7 @@ class PyTorch extends Component {
                                          <h3 className="carousel-caption-pytorch">Content Image, Style reference</h3>
                                         </Carousel.Caption>
                                     </Carousel.Item>
-                                    <Carousel.Item>
+                                  {/*  <Carousel.Item>
                                     <Container>
                                         <img
                                             className="d-block img-fluid w-100 carousel-center-image-pytorch"
@@ -126,6 +130,8 @@ class PyTorch extends Component {
                                              <h3 className="carousel-caption-pytorch">Training Loss</h3>
                                         </Carousel.Caption>
                                     </Carousel.Item>
+                                    */
+                                  }
                                     <Carousel.Item>
                                     <Container>
                                         <img
