@@ -18,6 +18,8 @@ import Footer from '../../components/Footer/Footer';
 import Skills from '../../components/Skills/Skills'
 import ToDo from '../../projectsInfo/ToDo/ToDo'
 import Experience from '../../components/Experience/Experience'
+import '../../projectsInfo/FlowerPrediction/FlowerPrediction.css'
+
 const Layout = (props) => {
 
 
@@ -49,16 +51,16 @@ const Layout = (props) => {
   return (
     <div >
        
-      <Container className="ne-layout-layout">
+      <Container className="space-mobile-flower-prediction ne-layout-layout">
         <Row>
-          <Col xs={6} className="col1" md={6} xg={6} >
+          <Col xs={12} className="col1 space-mobile-flower-prediction" md={6} xg={6} >
             <Container className="container-layout">
               <Image src={require('../../assets/me1.png')}  />
               <h4 style={{ margin: 0 }}>Web/Mobile Developer</h4>
               <h4 >Software Engineer</h4>
             </Container>
           </Col>
-          <Col xs={6} md={6} xg={6}>
+          <Col xs={12} md={6} xg={6}>
             <div>
               <p className="p-layout">I'm a Mathematics student at University of Waterloo. I love working on projects such as <span>apps</span> and <span>web development</span> from <span>design to development</span> and in my spare time
 I like to learn more about deep learning (particularly NLP) and neural networks.</p>

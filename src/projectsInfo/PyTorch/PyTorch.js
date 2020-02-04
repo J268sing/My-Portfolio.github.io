@@ -172,12 +172,13 @@ class PyTorch extends Component {
                 </div>
 
                 <div className="div-general-black1-pytorch">
-                    <Row >
+                    <Row className="space-mobile" >
                         <h1>Jupyter Notebook Imlementations of More Deep Learning Concepts</h1>
                     </Row>
 
+
                     <Row >
-                        <Col xs={4} md={4} xg={4}>
+                        <Col xs={12} md={4} xg={4}>
                             <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/Part%205%20-%20Inference%20and%20Validation%20.ipynb" class="card-link">
                                 <Card className="shadow card1-pytorch  bg-light rounded text-dark " >
                                     <Card.Body><p><span>Inference and Validation</span></p>
@@ -188,7 +189,7 @@ class PyTorch extends Component {
                             </a>
 
                         </Col>
-                        <Col xs={4} md={4} xg={4}>
+                        <Col xs={12} md={4} xg={4}>
                             <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/conv_visualization.ipynb" class="card-link">
                                 <Card className="shadow card1-pytorch  bg-light rounded text-dark ">
                                     <Card.Body><p><span>Convolutional Visualization</span></p>
@@ -200,7 +201,7 @@ class PyTorch extends Component {
                             </a>
 
                         </Col>
-                        <Col xs={4} md={4} xg={4}>
+                        <Col xs={12} md={4} xg={4}>
                             <a href="https://github.com/J268sing/deep-learning-PyTorch/blob/master/maxpooling_visualization.ipynb" class="card-link">
                                 <Card className="shadow card1-pytorch  bg-light rounded text-dark ">
                                     <Card.Body><p><span>Maxpooling Visualization</span></p>
