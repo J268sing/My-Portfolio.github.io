@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import Crousel from '../../components/Carousel/Carousel'
-import image1 from '../../assets/ui.png';
-import image2 from '../../assets/backend.png'
-import image3 from '../../assets/frontend.png'
 import Footer from '../../components/Footer/Footer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
-import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
  import './ToDo.css'

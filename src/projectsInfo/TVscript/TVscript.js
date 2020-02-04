@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import './TVscript.css'
 import Footer from '../../components/Footer/Footer';

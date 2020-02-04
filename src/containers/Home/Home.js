@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Navba from '../../components/Navbar/Navbar';
-import Footer from 'react-bootstrap/ModalFooter';
-import foo from '../../components/Footer/Footer';
 class Home extends Component {
     render() {
         return (

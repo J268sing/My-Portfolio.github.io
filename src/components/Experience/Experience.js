@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Crousel from '../../components/Carousel/Carousel'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'

@@ -1,23 +1,8 @@
 import React from 'react';
 import './Footer.css'
-
-
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import { Route, BrowserRouter as Router, Switch, NavLink, Link } from 'react-router-dom';
-import Shopify from '../../projectsInfo/Shopify/Shopify';
-import iRead from '../../projectsInfo/iRead/iRead';
-import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
-import { withRouter } from "react-router";
-import Layout from '../../containers/layout/Layout';
-import Home from '../../containers/Home/Home';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-solid-svg-icons'
-
+ 
 
 const Footer = () => (
   <footer className="footer">

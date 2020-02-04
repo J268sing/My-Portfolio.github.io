@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Scroll from 'react-scroll'
- import NavDropdown from "react-bootstrap/NavDropdown";
 import  './Navbar.css';
-import {Route,BrowserRouter as Router, Switch, NavLink, Link} from 'react-router-dom';
+import {Route,Link} from 'react-router-dom';
 import Shopify from '../../projectsInfo/Shopify/Shopify';
 import iRead from '../../projectsInfo/iRead/iRead';
 import TVscript from '../../projectsInfo/TVscript/TVscript';
 import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
-import { withRouter } from "react-router";
 import Layout from '../../containers/layout/Layout';
-import Home from '../../containers/Home/Home';
 import ToDo from '../../projectsInfo/ToDo/ToDo'
 import FlowerPrediction from '../../projectsInfo/FlowerPrediction/FlowerPrediction'
-import Chalpa from '../../projectsInfo/Chalpa/chalpa'
-
+ 
 
  
 class Navba extends Component {

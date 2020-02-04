@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -7,19 +7,16 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup'
 import Button from 'react-bootstrap/Button'
 import './Layout.css'
-import { Route, BrowserRouter as Router, Switch, NavLink, Link } from 'react-router-dom';
+import { Route} from 'react-router-dom';
 import iRead from '../../projectsInfo/iRead/iRead';
 import Shopify from '../../projectsInfo/Shopify/Shopify';
 import TVscript from '../../projectsInfo/TVscript/TVscript';
 import PyTorch from '../../projectsInfo/PyTorch/PyTorch';
 import FlowerPrediction from '../../projectsInfo/FlowerPrediction/FlowerPrediction';
-import Home from '../Home/Home';
 import { useHistory } from "react-router-dom";
 import Footer from '../../components/Footer/Footer';
 import Skills from '../../components/Skills/Skills'
-import { Element } from 'react-scroll'
 import ToDo from '../../projectsInfo/ToDo/ToDo'
-import Nav from 'react-bootstrap/Nav';
 import Experience from '../../components/Experience/Experience'
 const Layout = (props) => {
 
