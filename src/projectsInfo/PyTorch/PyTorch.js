@@ -211,7 +211,7 @@ class PyTorch extends Component {
                 <p className="space-skills"></p>
                 <Footer></Footer>
 
-            </div>
+            </div> 
         )
     }
 }

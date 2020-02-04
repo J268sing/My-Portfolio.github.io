@@ -21,7 +21,7 @@ class ToDo extends Component {
  <Container className="container-flowerprediction ">
                     <h1 className="h1-todo">To-Do</h1>
 
-                    <Container className="ne-layout">
+                    <Container className="ne-layout-others">
                         <Row>
                             <Col xs={6} className="col1" md={6} xg={6} >
                                 <Container className="container-iread">
@@ -82,7 +82,7 @@ class ToDo extends Component {
                 
                 <p className="space-skills"></p>
                 <Footer></Footer>
-                
+                 
                          </div>
         )
     }

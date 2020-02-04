@@ -18,11 +18,9 @@ class iRead extends Component {
         return (
             <div>
                  <Container className="container-flowerprediction ">
-                 <div className="div-space-iread">
                     <h1 className="h1-iread">iRead</h1>
-                    </div>
                     <div className="div-space-iread">
-                    <Container className="ne-layout">
+                    <Container className="ne-layout-others">
                         <Row>
                             <Col xs={6} className="col1" md={6} xg={6} >
                                 <Container className="container-iread">

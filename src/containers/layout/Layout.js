@@ -52,7 +52,7 @@ const Layout = (props) => {
   return (
     <div >
        
-      <Container className="ne-layout">
+      <Container className="ne-layout-layout">
         <Row>
           <Col xs={6} className="col1" md={6} xg={6} >
             <Container className="container-layout">

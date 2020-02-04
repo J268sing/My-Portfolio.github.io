@@ -73,3 +73,4 @@ The collection image</Card.Body>
 }
 export default Shopify;
 
+ 

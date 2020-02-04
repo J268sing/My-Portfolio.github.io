@@ -8,12 +8,19 @@ html, body {
     height: 100%;
     width: 255px;
     text-align: center;
-}
+ }
   
  
-.ne-layout { 
+.ne-layout-layout { 
     width: auto;
     height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.ne-layout-others { 
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
 }

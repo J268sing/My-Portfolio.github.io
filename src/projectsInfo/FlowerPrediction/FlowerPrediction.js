@@ -12,10 +12,15 @@ class FlowerPrediction extends Component {
     render() {
         return ( 
             <div>
-                <Container className="container-flowerprediction ">
-                    <h1 className="h1-flowerprediction">Flower  Prediction</h1>
 
-                    <Container className="ne-layout">
+                <Container className="container-flowerprediction ">
+                <div className="div-space-iread">
+
+                    <h1 className="h1-flowerprediction">Flower  Prediction</h1>
+</div>
+<div className="div-space-iread">
+
+                    <Container className="ne-layout-others">
                         <Row>
                             <Col xs={6} className="col1" md={6} xg={6} >
                                 <Container className="container-layout">
@@ -51,7 +56,7 @@ class FlowerPrediction extends Component {
                                 </Container>
                             </Col>
                             <Col xs={6} md={6} xg={6}>
-                                <div>
+                                <div className="">
                                     <p className="p-layout">This is a CNN model bulit by fine-tuning the pre-trained VGG19 model by modifiying the classifying layer with custom feed forward network that has 2 hidden layers and ReLU activation functions.
                                     The model has an accuracy of the 85% and is trained on CUDA's GPU. 
                                     </p>
@@ -62,12 +67,12 @@ class FlowerPrediction extends Component {
                             </Col>
                         </Row>
                     </Container>
+                    </div>
                 </Container>
-
 
                 <Container fluid className="container-flower-prediction ">Link to the trained dataset: <a target="_blank" href ="https://drive.google.com/file/d/1-Dx1OXsg2yuTDfyELJA2LOCaQAvIrVK2/view?usp=sharing"  className="card-flower-prediction">Checkpoint</a></Container>
 
-                <Container className="ne-layout">
+                <Container className="ne-layout-others">
         <Row>
           <Col xs={6} md={6} xg={6}>
             <div>
