@@ -14,7 +14,7 @@ class ToDo extends Component {
             <div>
  <Container className="container-flowerprediction ">
                     <h1 className="h1-todo">To-Do</h1>
-
+ 
                     <Container className="ne-layout-others">
                         <Row>
                             <Col xs={12} className="col1 space-mobile-flower-prediction" md={6} xg={6} >

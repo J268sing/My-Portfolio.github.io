@@ -81,13 +81,13 @@ class FlowerPrediction extends Component {
                     </div>
           </Col>
           <Col xs={12} className="col1" md={6} xg={6} >
-            <Container className="container-layout">
             <Container >
+             
                 <Row className="video-todo"> 
                 <iframe width="420" height="315" src="https://www.youtube.com/embed/K6fZ592WUAY" frameborder="0" allowfullscreen></iframe>
 
                  </Row>
-                </Container>
+                 
             </Container>
           </Col>
         </Row>

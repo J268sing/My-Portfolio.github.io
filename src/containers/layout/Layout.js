@@ -70,6 +70,9 @@ I like to learn more about deep learning (particularly NLP) and neural networks.
         </Row>
       </Container>
 
+
+                <p className="space-skills"></p>
+
       <Experience></Experience>
 
       <a name="projects">

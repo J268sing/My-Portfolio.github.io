@@ -78,5 +78,10 @@
     .space-mobile{
         margin-bottom: 16px;
     }
+
+    .ne-layout-layout{
+        padding-top: 400px;
+        height: auto;
+    }
 }
 
