@@ -17,6 +17,10 @@
     width: 255px;
  }
 
+ .div-space-iread{
+     margin: 8px;
+     padding: 8px
+ }
 
  .container-iread1{
     color: white;

@@ -18,8 +18,10 @@ class iRead extends Component {
         return (
             <div>
                  <Container className="container-flowerprediction ">
+                 <div className="div-space-iread">
                     <h1 className="h1-iread">iRead</h1>
-
+                    </div>
+                    <div className="div-space-iread">
                     <Container className="ne-layout">
                         <Row>
                             <Col xs={6} className="col1" md={6} xg={6} >
@@ -67,8 +69,8 @@ class iRead extends Component {
                             </Col>
                         </Row>
                     </Container>
+                    </div>
                 </Container>
-
 
                 <Container fluid className="container-iread1">You can browse through different recommendations of different categories. Also, the app keeps track of 5 latest books that you have been reading recently. The UI is classic Material Design and the app layout is simple enough for almost everybody.</Container>
 
