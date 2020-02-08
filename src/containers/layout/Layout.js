@@ -80,10 +80,9 @@ const Layout = (props) => {
               <Card.Img variant="top" src={require('../../assets/ToDo.png')} />
               <Card.Body>
                 <Card.Title><span>To-Do App</span></Card.Title>
-                <Card.Text>
+                <Card.Text className="hide1">
                   A Full Stack React Express Application where you can store you daily to-do list by creating
                   new tasks.
-                  <p className="hide1">jashan</p>
                 </Card.Text>
                 
 
@@ -140,14 +139,17 @@ const Layout = (props) => {
                 </Row>
               </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }} className="card-layout shadow p-3 mb-5 bg-white rounded">
+          </CardGroup>
+          <CardGroup >
+          <Card style={{ width: '18rem' }} className="card-layout shadow p-3 mb-5 bg-white rounded">
               <Card.Img variant="top" src={require('../../assets/Flower-Prediction.png')} />
               <Card.Body>
                 <Card.Title><span>Flower Prediction</span></Card.Title>
                 <Card.Text>
                   A CNN model trained using machine learning algorithms to predict the species of
                   flower from input flower image.
-                  <p className="hide1">jashan</p>
+                  <p className="hide3">jashan</p>
+                  <p className="hide3">jashan</p>
                 </Card.Text>
                 <Row>
                   <Col>
@@ -161,8 +163,6 @@ const Layout = (props) => {
                 </Row>
               </Card.Body>
             </Card>
-          </CardGroup>
-          <CardGroup >
             <Card style={{ width: '18rem' }} className=" card-layout shadow p-3 mb-5 bg-white rounded">
               <Card.Img variant="top" src={require('../../assets/TVscript.png')} />
               <Card.Body>

@@ -18,11 +18,16 @@ html, body {
 
 .hide{
     color: transparent;
-    margin-top: 7px;}
+    margin-top: 7px;
+}
 
-.hide1{
+
+.hide3{
     color: transparent;
-    margin-top: 17px;
+    margin-top: 11px;
+}
+.hide1{
+    margin-bottom: 23px;
 }
 
 .hide2{
