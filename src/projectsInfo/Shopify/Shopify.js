@@ -36,7 +36,7 @@ class Shopify extends Component {
                   <Container  >
                     <img
                       className="d-block w-100 "
-                      src={require('../../assets/king.png')}
+                      src={require('../../assets/Shopify1.png')}
                       alt="First slide"
                     />
                   </Container>
@@ -68,7 +68,7 @@ class Shopify extends Component {
         <Container >
           <Row className="video-todo">
             <iframe width="420" height="315"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              src="https://www.youtube.com/embed/WdAnyGGgqtE">
             </iframe>
           </Row>
         </Container>

@@ -82,11 +82,13 @@ const Layout = (props) => {
           <h1 className="center-layout">Projects</h1>
           <CardGroup >
             <Card style={{ width: '18rem' }} className=" card-layout shadow p-3 mb-5 bg-white rounded">
-              <Card.Img variant="top" src={require('../../assets/king.png')} />
+              <Card.Img variant="top" src={require('../../assets/iRead.jpg')} />
               <Card.Body>
                 <Card.Title><span> iRead</span></Card.Title>
                 <Card.Text>
                   An android app for downloading and reading books.
+                  <p className="hide">jashan</p>
+                  <p className="hide">jashan</p>
                 </Card.Text>
                 <Row>
                   <Col>
@@ -101,7 +103,7 @@ const Layout = (props) => {
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className="card-layout shadow p-3 mb-5 bg-white rounded">
-              <Card.Img variant="top" src={require('../../assets/king.png')} />
+              <Card.Img variant="top" src={require('../../assets/shopify2.png')} />
               <Card.Body>
                 <Card.Title><span> Shopify Project</span></Card.Title>
                 <Card.Text>
@@ -127,6 +129,7 @@ const Layout = (props) => {
                 <Card.Text>
                   A CNN model trained using machine learning algorithms to predict the species of
                   flower from input flower image.
+                  <p className="hide1">jashan</p>
                 </Card.Text>
                 <Row>
                   <Col>
@@ -148,6 +151,7 @@ const Layout = (props) => {
                 <Card.Title><span>TV-Script-Generator</span></Card.Title>
                 <Card.Text>
                   A recurrent neural network (RNN) that generates small new dialogues for Simpson's TV script
+                  <p className="hide2">jashan</p>
                 </Card.Text>
                 <Row>
                   <Col>
@@ -188,7 +192,10 @@ const Layout = (props) => {
                 <Card.Text>
                   A Full Stack React Express Application where you can store you daily to-do list by creating
                   new tasks.
+                  <p className="hide1">jashan</p>
                 </Card.Text>
+                
+
                 <Row>
                   <Col>
                     <Button className="block-layout" onClick={onNavigateToDo} variant="primary">About</Button>

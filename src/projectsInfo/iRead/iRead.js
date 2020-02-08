@@ -24,7 +24,7 @@ class iRead extends Component {
                                                     <Container  >
                                                         <img
                                                             className="d-block w-100 "
-                                                            src={require('../../assets/Flower-prediction1.png')}
+                                                            src={require('../../assets/iRead1.png')}
                                                             alt="First slide"
                                                         />
                                                     </Container>
@@ -34,8 +34,8 @@ class iRead extends Component {
                                                 <Carousel.Item>
                                                     <Container>
                                                         <img
-                                                            className="d-block w-100 carousel-center-image-pytorch"
-                                                            src={require('../../assets/Flower-prediction2.png')}
+                                                            className="d-block w-100 "
+                                                            src={require('../../assets/iRead2.png')}
                                                             alt="Third slide"
                                                         />
                                                     </Container>
@@ -73,7 +73,7 @@ class iRead extends Component {
                 <Container >
                     <Row className="video-todo">
                         <iframe width="420" height="315"
-                            src="https://www.youtube.com/embed/K6fZ592WUAY">
+                            src="https://www.youtube.com/embed/92AcnehFJ08">
                         </iframe>
                     </Row>
                 </Container>

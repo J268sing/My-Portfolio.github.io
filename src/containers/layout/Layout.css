@@ -16,6 +16,19 @@ html, body {
     align-items: center;
 }
 
+.hide{
+    color: transparent;
+    margin-top: 7px;}
+
+.hide1{
+    color: transparent;
+    margin-top: 17px;
+}
+
+.hide2{
+    color: transparent;
+    margin-top: 36px;
+}  
 .ne-layout-others { 
     width: auto;
     height: auto;
