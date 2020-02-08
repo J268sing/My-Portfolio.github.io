@@ -76,6 +76,29 @@ const Layout = (props) => {
         <div className="div-color-layout">
           <h1 className="center-layout">Projects</h1>
           <CardGroup >
+          <Card style={{ width: '18rem' }} className="shadow p-3 mb-5 bg-white card-layout rounded">
+              <Card.Img variant="top" src={require('../../assets/ToDo.png')} />
+              <Card.Body>
+                <Card.Title><span>To-Do App</span></Card.Title>
+                <Card.Text>
+                  A Full Stack React Express Application where you can store you daily to-do list by creating
+                  new tasks.
+                  <p className="hide1">jashan</p>
+                </Card.Text>
+                
+
+                <Row>
+                  <Col>
+                    <Button className="block-layout" onClick={onNavigateToDo} variant="primary">About</Button>
+                  </Col>
+                  <Col>
+                    <a href="https://github.com/J268sing/To-Do-App">
+                      <Button className="block-layout" variant="primary">Github</Button>
+                    </a>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
             <Card style={{ width: '18rem' }} className=" card-layout shadow p-3 mb-5 bg-white rounded">
               <Card.Img variant="top" src={require('../../assets/iRead.jpg')} />
               <Card.Body>
@@ -180,29 +203,7 @@ const Layout = (props) => {
                 </Row>
               </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }} className="shadow p-3 mb-5 bg-white card-layout rounded">
-              <Card.Img variant="top" src={require('../../assets/ToDo.png')} />
-              <Card.Body>
-                <Card.Title><span>To-Do App</span></Card.Title>
-                <Card.Text>
-                  A Full Stack React Express Application where you can store you daily to-do list by creating
-                  new tasks.
-                  <p className="hide1">jashan</p>
-                </Card.Text>
-                
-
-                <Row>
-                  <Col>
-                    <Button className="block-layout" onClick={onNavigateToDo} variant="primary">About</Button>
-                  </Col>
-                  <Col>
-                    <a href="https://github.com/J268sing/To-Do-App">
-                      <Button className="block-layout" variant="primary">Github</Button>
-                    </a>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
+           
           </CardGroup>
         </div>
       </a>
