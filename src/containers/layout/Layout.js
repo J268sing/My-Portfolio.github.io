@@ -21,11 +21,7 @@ import Experience from '../../components/Experience/Experience'
 import '../../projectsInfo/FlowerPrediction/FlowerPrediction.css'
 
 const Layout = (props) => {
-
-
   const history = useHistory();
-
-
   function onNavigateiRead() {
     history.push("/iRead");
   }
@@ -38,7 +34,6 @@ const Layout = (props) => {
 
   function onNavigateTVscript() {
     history.push("/TVscript");
-
   }
   function onNavigateFlowerPrediction() {
     history.push("/FlowerPrediction");
@@ -62,7 +57,7 @@ const Layout = (props) => {
           <Col xs={12} md={6} xg={6}>
             <div>
               <p className="p-layout">I'm a Mathematics student at University of Waterloo.
-               I love working on projects such as <span>apps</span> and <span>web development
+               I love working on projects such as <span>Mobile Apps</span> and <span>Web Apps
                </span> from <span>design to development</span> and in my spare time I like to
                 learn more about deep learning (particularly NLP) and neural networks.
                </p>

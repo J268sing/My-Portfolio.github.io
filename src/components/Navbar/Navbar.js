@@ -35,8 +35,11 @@ class Navba extends Component {
                     */}
                             {/* Navbar Items*/}
                             <Nav.Link className="navlink-home" href="#about"><p className="alignment2-home">About</p></Nav.Link>
-                            
-                            <Nav.Link className="navlink-home"  href="#experience"><a href='resume.pdf' download ><p className="alignment2-home">Resume</p></a></Nav.Link>
+                         { /*  <a href='resume.pdf' download="../../assets/resume.pdf" id="play">
+      
+                </a>*/}
+                                          <Nav.Link className="navlink-home" href="#experience"><p className="alignment2-home"> <a target="_blank" href="https://drive.google.com/file/d/1glDN89EQLTDTBAL_33OjSvBDWMDTgrF7/view?usp=sharing">Resume
+                  </a></p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#experience"><p className="alignment2-home">Experience</p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#projects"><p className="alignment2-home">Projects</p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#skills"><p className="alignment2-home">Skills</p></Nav.Link>

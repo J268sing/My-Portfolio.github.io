@@ -16,7 +16,7 @@ class Skills extends Component {
                     <Row className="align-items-skills"> JavaScript • Python • C++/C • SQL • Java • HTML/CSS • R</Row>
                     <p style={{ margin: 24 }}></p>
                     <p style={{ margin: 0 }} className="align-skills">Tools/Libraries</p>
-                    <Row className="align-items-skills">React • Redux • Node.js • Git • Android Studio • PyTorch • TensorFlow • AWS</Row>
+                    <Row className="align-items-skills">React • Redux • Node.js • Express • TensorFlow • PyTorch • Android Studio • Git • Google Cloud</Row>
                     <p className="align-skills full-stack-skills">Full Stack </p>
                     <Container>
                         <Row className="row-cards-skills">
