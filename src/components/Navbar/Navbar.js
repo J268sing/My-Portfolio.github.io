@@ -36,7 +36,7 @@ class Navba extends Component {
                             {/* Navbar Items*/}
                             <Nav.Link className="navlink-home" href="#about"><p className="alignment2-home">About</p></Nav.Link>
                             
-                            <Nav.Link className="navlink-home"  href="#experience"><a href='resume.pdf' download="resume.pdf" ><p className="alignment2-home">Resume</p></a></Nav.Link>
+                            <Nav.Link className="navlink-home"  href="#experience"><a href='resume.pdf' download ><p className="alignment2-home">Resume</p></a></Nav.Link>
                             <Nav.Link className="navlink-home" href="#experience"><p className="alignment2-home">Experience</p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#projects"><p className="alignment2-home">Projects</p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#skills"><p className="alignment2-home">Skills</p></Nav.Link>
@@ -63,6 +63,4 @@ class Navba extends Component {
         )
     }
 }
-
-
 export default Navba;
