@@ -38,7 +38,7 @@ class Navba extends Component {
                          { /*  <a href='resume.pdf' download="../../assets/resume.pdf" id="play">
       
                 </a>*/}
-                                          <Nav.Link className="navlink-home" href="#experience"><p className="alignment2-home"> <a target="_blank" href="https://drive.google.com/open?id=12Knc4btkktIar1vDs74Kb_vN8Ylz7BTL/view?usp=sharing">Resume
+                                          <Nav.Link className="navlink-home" href="#experience"><p className="alignment2-home"> <a target="_blank" href="https://drive.google.com/file/d/12Knc4btkktIar1vDs74Kb_vN8Ylz7BTL/view?usp=sharing">Resume
                   </a></p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#experience"><p className="alignment2-home">Experience</p></Nav.Link>
                             <Nav.Link className="navlink-home" href="#projects"><p className="alignment2-home">Projects</p></Nav.Link>
